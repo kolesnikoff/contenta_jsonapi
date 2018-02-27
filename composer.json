@@ -9,6 +9,10 @@
     "license": "GPL-2.0+",
     "repositories": [
         {
+            "url": "https://github.com/kolesnikoff/subrequests.git",
+            "type": "git"
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
@@ -50,7 +54,7 @@
         "drupal/core": "^8.4.2",
         "drupal/jsonapi": "^1.7",
         "drupal/jsonapi_extras": "^1.0@rc",
-        "drupal/subrequests": "^2.0@beta",
+        "drupal/subrequests": "dev-master",
         "drupal/fieldable_path": "^1.0",
         "drupal/simple_oauth": "^3.3",
         "drupal/media_entity": "^1.6",
